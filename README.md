@@ -1,5 +1,4 @@
 # Share internet via Wifi direct on Android
-[![Build Status](https://travis-ci.org/shinilms/direct-net-share.svg?branch=master)](https://travis-ci.org/shinilms/direct-net-share)
 
 ## Direct Net Share
 
