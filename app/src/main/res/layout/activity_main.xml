@@ -1,24 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="shinil.direct_share.MainActivity"
-    android:padding="16dp">
-    <TextView
-        android:id="@+id/text_view_info"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="shinil.direct_share.MainActivity">
+
+    <android.support.v7.widget.SwitchCompat
+        android:id="@+id/wifi_switch"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="20dp"
-        android:textSize="20sp"
-        android:text="Creating group.."/>
+        android:text="Enable Wifi" />
+
     <TextView
-        android:id="@+id/text_view_hint"
+        android:id="@+id/info"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/text_view_info"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="40dp"/>
-</RelativeLayout>
+        android:layout_marginTop="40dp" />
+</LinearLayout>

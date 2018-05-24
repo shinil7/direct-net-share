@@ -7,7 +7,7 @@ import android.net.wifi.WifiManager;
  * @author shinilms
  */
 
-public final class U {
+public final class Utils {
 
     public static boolean enableWifi(Context context) {
         WifiManager wifiManager = (WifiManager) context.getApplicationContext().
