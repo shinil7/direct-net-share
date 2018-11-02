@@ -1,4 +1,4 @@
-# Share internet via Wifi direct on Android
+# Share internet via Wifi direct on Android [Root]
 
 ## Direct Net Share
 
@@ -9,7 +9,7 @@ Requirements
 ------------
 - Launch the app in the host device.
 - Connect to the host device using the `ssid` and `password` displayed in the app.
-- On the other device, go to `Settings` -> `Wifi` -> Long click the current network -> `Modify network` -> `Advanced Options` -> and use the proxy settings displayed in the app.
+- No need to setup a proxy on the device(s) you wish to connect. The ip is forwarded thanks to the root rights.
 
 Repository overview
 -------------------
